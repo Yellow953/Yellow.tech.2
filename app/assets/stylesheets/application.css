@@ -1,0 +1,19 @@
+.loader_bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100!important;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+}
+.loader{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.font-weight-custom{
+    font-size: 5rem!important;
+}
+.font-weight-custom-2{
+    font-size: 2rem!important;
+}

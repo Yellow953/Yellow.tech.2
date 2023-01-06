@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    
+    <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Yellow.tech
+    </title>
+    <meta name="description" content="yellow.tech" />
+    <meta name="keywords" content="yellow.tech" />
+    <meta name="author" content="Joe Mazloum" />
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
+    
+    <%= stylesheet_link_tag "animation" %>
+
+    <style>
+      .gradient {
+        /* background: linear-gradient(90deg, #d53369 0%, #daae51 100%); */
+        /* background: rgb(213,51,105);
+        background: linear-gradient(90deg, rgba(213,51,105,1) 0%, rgba(255,255,0,1) 75%); */
+        /* background: rgb(251,239,72);
+        background: linear-gradient(90deg, rgba(251,239,72,1) 0%, rgba(255,255,0,1) 100%) */
+        background: rgb(233,71,71);
+        background: linear-gradient(90deg, rgba(233,71,71,1) 0%, rgba(255,255,0,1) 75%);
+      }
+      .gradient-2{
+        background: rgb(251,239,72);
+        background: linear-gradient(90deg, rgba(251,239,72,1) 0%, rgba(255,255,0,1) 100%)
+      }
+    </style>
+  </head>
+
+  <body class="leading-normal tracking-normal text-white gradient" style="font-family: 'Source Sans Pro', sans-serif;">
+    <main>
+      <%= yield %>
+    </main>
+
+    <%= render "layouts/scripts" %>
+  </body>
+</html>

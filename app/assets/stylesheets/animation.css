@@ -1,0 +1,67 @@
+.animate {
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-name: animate-fade;
+    animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+    animation-fill-mode: backwards;
+}
+  
+/* Glow In */
+.animate.glow {
+    animation-name: animate-glow;
+    animation-timing-function: ease;
+}
+  
+@keyframes animate-glow {
+    0% {
+      opacity: 0;
+      filter: brightness(3) saturate(3);
+      transform: scale(0.8, 0.8);
+    }
+    100% {
+      opacity: 1;
+      filter: brightness(1) saturate(1);
+      transform: scale(1, 1);
+    }
+}
+
+@keyframes animate-fade {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.animate.pop {
+  animation-name: animate-pop;
+  animation-timing-function: cubic-bezier(.26,.53,.74,1.48);
+}
+
+@keyframes animate-pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+        
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+  
+.delay-1 {
+    animation-delay: 1s;
+}
+.delay-2 {
+    animation-delay: 2s;
+}
+.delay-3 {
+    animation-delay: 3s;
+}
+.delay-4 {
+    animation-delay: 4s;
+}
+.delay-5 {
+    animation-delay: 5s;
+}
+.delay-5 {
+    animation-delay: 6s;
+}
