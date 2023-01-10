@@ -1,0 +1,52 @@
+
+        <div id="contact-us" class="contact pt-5 mt-5">
+            <div class="container mx-auto sm:px-4 max-w-full mx-auto sm:px-4">
+               <div class="flex flex-wrap ">
+                  <div class="md:w-full pr-4 pl-4">
+                     <div class="titlepage">
+                        <h2>Contact Us</h2>
+                     </div>
+                  </div>
+               </div>
+               <div class="flex flex-wrap ">
+                  <div class="md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
+                     <%= image_tag "pic1.png", class:"pic1 my-4" %>
+                     <h1 class="text-center m-2">
+                        <i>
+                           Book Now a meeting with us. <br>
+                           We will discuss where you are leaving money on the table.
+                           We will give you sollutions and tips for FREE...
+                           So it's a win win situation for everyone.
+                           What are you waiting for!
+                        </i>
+                     </h1>
+                  </div>
+                  <div class="md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
+                     <div class="contact">
+                        <form action="/user/contact/save" method="POST" enctype="multipart/form-data">
+                           @csrf
+                           <h2 class="my-3 text-center">Book a Meeting with us</h2>
+                           <div class="flex flex-wrap ">
+                              <div class="sm:w-full pr-4 pl-4 my-2">
+                                 <input type="text" name="name" class="contactus" placeholder="Name" required>
+                              </div>
+                              <div class="sm:w-full pr-4 pl-4 my-2">
+                                 <input type="email" name="email" class="contactus bg-white" placeholder="Email" required>
+                              </div>
+                              <div class="sm:w-full pr-4 pl-4 my-2">
+                                 <input type="text" name="phone" class="contactus" placeholder="Phone Number" required>
+                              </div>
+                              <div class="sm:w-full pr-4 pl-4 my-2">
+                                 <textarea name="message" class="textarea" type="text" placeholder="Message" required></textarea>
+                              </div>
+                              <div class="sm:w-full pr-4 pl-4 my-2">
+                                 <button class="send" type="submit">Send</button>
+                              </div>
+                           </div>
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <br><br><br>
+         </div>

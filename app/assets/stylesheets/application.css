@@ -17,3 +17,56 @@
 .font-weight-custom-2{
     font-size: 2rem!important;
 }
+.font-weight-custom-3{
+    font-size: 1.25rem!important;
+}
+
+/* custom form */
+.contact .contact {
+    background: #fff;
+    width: 100%;
+    padding: 36px;
+    border-radius: 30px;
+    border: yellow solid 10px;
+}
+.contact .contact .contactus {
+    border: #000 solid 1px;
+    padding: 0px 0px 12px 0px;
+    margin-bottom: 30px;
+    border-radius: inherit;
+    color: #000;
+    width: 100%;
+    border-top: inherit;
+    border-right: inherit;
+    border-left: inherit;
+    font-size: 17px;
+    line-height: 18px;
+}
+.contact .contact .textarea {
+    margin-bottom: 25px;
+    padding: 15px 0px;
+    border: transparent;
+    color: #000 !important;
+    width: 100%;
+    font-size: 17px;
+    line-height: 18px;
+    border-radius: inherit;
+    border: #000 solid 1px;
+    border-top: inherit;
+    border-right: inherit;
+    border-left: inherit;
+}
+.contact .contact .send {
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 60px;
+    margin: 0 auto;
+    border-radius: 30px;
+    display: block;
+}
+.contact .contact .send:hover {
+    background-color: #f2740d;
+    color: #fff;
+}
+/** end contact section **/

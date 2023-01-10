@@ -3,8 +3,8 @@
       <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
         <div class="pl-4 flex items-center">
           <a class="flex items-center toggleColour text-black no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="/">
-            <%= image_tag "logo.png", class:"w-12 h-12" %>
-            <span class="mx-3">Yellow.tech</span>
+            <%= image_tag "logo_inner.png", class:"w-16 h-24" %>
+            <span class="mx-3 text-black">Yellow.tech</span>
           </a>
         </div>
         <div class="block lg:hidden pr-4">
@@ -25,7 +25,7 @@
                 <%= link_to "Profile", edit_user_registration_path, class:"inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" %>
               </li>
               <li class="mr-3">
-                <%= button_to "Register", destroy_user_session_path, method: :delete, class:"inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" %>
+                <%= button_to "Logout", destroy_user_session_path, method: :delete, class:"inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" %>
               </li>
             <% else%>
               <li class="mr-3">
