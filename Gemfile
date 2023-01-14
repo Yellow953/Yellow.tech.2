@@ -5,19 +5,19 @@ ruby "3.0.0"
 gem "rails", "~> 7.0.4"
 
 gem "sprockets-rails"
-gem "pg", "~> 1.1"
-gem "puma", "~> 5.0"
+gem "pg"
+gem "puma"
 gem "importmap-rails"
 gem "turbo-rails"
 gem "stimulus-rails"
 gem "jbuilder"
-gem "redis", "~> 4.0"
+gem "redis"
 # gem "kredis"
 # gem "bcrypt", "~> 3.1.7"
 gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 gem "bootsnap", require: false
 # gem "sassc-rails"
-# gem "image_processing", "~> 1.2"
+gem "image_processing"
 
 group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
@@ -37,3 +37,5 @@ end
 
 gem "devise"
 gem "tailwindcss-rails"
+gem "sidekiq"
+gem "sidekiq-cron"
