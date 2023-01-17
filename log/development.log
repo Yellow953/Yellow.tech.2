@@ -10774,3 +10774,686 @@ Processing by ApplicationController#index as HTML
 Completed 200 OK in 778ms (Views: 760.9ms | ActiveRecord: 0.0ms | Allocations: 71311)
 
 
+Started GET "/test" for 127.0.0.1 at 2023-01-17 21:38:49 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#test as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/test.html.erb within layouts/application
+  Rendered application/test.html.erb within layouts/application (Duration: 915.1ms | Allocations: 53378)
+  Rendered layouts/_scripts.html.erb (Duration: 2.3ms | Allocations: 385)
+  Rendered layout layouts/application.html.erb (Duration: 1081.6ms | Allocations: 76296)
+Completed 200 OK in 1119ms (Views: 1095.2ms | ActiveRecord: 0.0ms | Allocations: 81661)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:40:01 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 10.2ms | Allocations: 1452)
+  Rendered layouts/_footer.html.erb (Duration: 7.7ms | Allocations: 1090)
+  Rendered application/index.html.erb within layouts/application (Duration: 52.6ms | Allocations: 8710)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 91.1ms | Allocations: 16061)
+Completed 200 OK in 94ms (Views: 92.1ms | ActiveRecord: 0.0ms | Allocations: 16415)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:40:41 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.9ms | Allocations: 1315)
+  Rendered layouts/_footer.html.erb (Duration: 4.6ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 25.3ms | Allocations: 8546)
+  Rendered layouts/_scripts.html.erb (Duration: 2.8ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 79.8ms | Allocations: 20585)
+Completed 200 OK in 85ms (Views: 82.8ms | ActiveRecord: 0.0ms | Allocations: 21512)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:40:50 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 20.6ms | Allocations: 914)
+  Rendered layouts/_footer.html.erb (Duration: 4.9ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 168.1ms | Allocations: 5834)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 275.8ms | Allocations: 13283)
+Completed 200 OK in 301ms (Views: 299.6ms | ActiveRecord: 0.0ms | Allocations: 13575)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:41:07 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.0ms | Allocations: 925)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 5869)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 52.0ms | Allocations: 13161)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.0ms | Allocations: 13456)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:41:17 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 7.5ms | Allocations: 1306)
+  Rendered layouts/_footer.html.erb (Duration: 16.9ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 61.6ms | Allocations: 8566)
+  Rendered layouts/_scripts.html.erb (Duration: 5.3ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 110.4ms | Allocations: 16776)
+Completed 200 OK in 124ms (Views: 119.3ms | ActiveRecord: 0.0ms | Allocations: 17698)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:41:38 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.4ms | Allocations: 910)
+  Rendered layouts/_footer.html.erb (Duration: 1.2ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 23.8ms | Allocations: 5830)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 74.8ms | Allocations: 18020)
+Completed 200 OK in 78ms (Views: 76.4ms | ActiveRecord: 0.0ms | Allocations: 18311)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:41:45 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 930)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 24.7ms | Allocations: 5850)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 78.9ms | Allocations: 13123)
+Completed 200 OK in 81ms (Views: 79.5ms | ActiveRecord: 0.0ms | Allocations: 13413)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:41:51 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 914)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 23.6ms | Allocations: 5834)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 53.1ms | Allocations: 13104)
+Completed 200 OK in 56ms (Views: 54.1ms | ActiveRecord: 0.0ms | Allocations: 13394)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:42:17 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 904)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 27.9ms | Allocations: 5824)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 112.7ms | Allocations: 13095)
+Completed 200 OK in 117ms (Views: 115.3ms | ActiveRecord: 0.0ms | Allocations: 13389)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:42:25 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.6ms | Allocations: 1321)
+  Rendered layouts/_footer.html.erb (Duration: 5.5ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 37.3ms | Allocations: 8551)
+  Rendered layouts/_scripts.html.erb (Duration: 3.7ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 79.9ms | Allocations: 16679)
+Completed 200 OK in 95ms (Views: 91.0ms | ActiveRecord: 0.0ms | Allocations: 17602)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:42:33 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.6ms | Allocations: 1301)
+  Rendered layouts/_footer.html.erb (Duration: 4.1ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 31.4ms | Allocations: 8532)
+  Rendered layouts/_scripts.html.erb (Duration: 1.2ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 74.1ms | Allocations: 16660)
+Completed 200 OK in 80ms (Views: 77.6ms | ActiveRecord: 0.0ms | Allocations: 17583)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:42:45 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.0ms | Allocations: 1309)
+  Rendered layouts/_footer.html.erb (Duration: 4.9ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 33.2ms | Allocations: 8539)
+  Rendered layouts/_scripts.html.erb (Duration: 1.4ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 64.9ms | Allocations: 16667)
+Completed 200 OK in 71ms (Views: 68.2ms | ActiveRecord: 0.0ms | Allocations: 17590)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:43:02 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 922)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 62.3ms | Allocations: 5842)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 104.9ms | Allocations: 13262)
+Completed 200 OK in 109ms (Views: 107.4ms | ActiveRecord: 0.0ms | Allocations: 13553)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:43:59 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.5ms | Allocations: 1305)
+  Rendered layouts/_footer.html.erb (Duration: 3.9ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 36.0ms | Allocations: 8535)
+  Rendered layouts/_scripts.html.erb (Duration: 14.2ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 139.0ms | Allocations: 19961)
+Completed 200 OK in 146ms (Views: 143.1ms | ActiveRecord: 0.0ms | Allocations: 20883)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:44:20 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.9ms | Allocations: 906)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 24.2ms | Allocations: 5827)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 162.2ms | Allocations: 15974)
+Completed 200 OK in 169ms (Views: 167.5ms | ActiveRecord: 0.0ms | Allocations: 16265)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:44:55 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 9.7ms | Allocations: 1304)
+  Rendered layouts/_footer.html.erb (Duration: 20.4ms | Allocations: 1074)
+  Rendered application/index.html.erb within layouts/application (Duration: 80.7ms | Allocations: 8564)
+  Rendered layouts/_scripts.html.erb (Duration: 10.1ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 150.5ms | Allocations: 16883)
+Completed 200 OK in 159ms (Views: 155.7ms | Allocations: 17804)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:45:01 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 13.7ms | Allocations: 1326)
+  Rendered layouts/_footer.html.erb (Duration: 4.6ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 54.5ms | Allocations: 8582)
+  Rendered layouts/_scripts.html.erb (Duration: 1.4ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 116.1ms | Allocations: 16766)
+Completed 200 OK in 129ms (Views: 124.4ms | Allocations: 17687)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:45:06 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 7.3ms | Allocations: 1315)
+  Rendered layouts/_footer.html.erb (Duration: 6.4ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 47.3ms | Allocations: 8553)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 112.0ms | Allocations: 16855)
+Completed 200 OK in 120ms (Views: 118.1ms | Allocations: 17776)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:45:19 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.4ms | Allocations: 916)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 24.5ms | Allocations: 5836)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 71.7ms | Allocations: 15483)
+Completed 200 OK in 74ms (Views: 72.5ms | Allocations: 15771)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:45:29 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 916)
+  Rendered layouts/_footer.html.erb (Duration: 3.4ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 39.1ms | Allocations: 5836)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 95.1ms | Allocations: 13106)
+Completed 200 OK in 100ms (Views: 97.5ms | Allocations: 13393)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:45:30 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.9ms | Allocations: 910)
+  Rendered layouts/_footer.html.erb (Duration: 1.6ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 31.4ms | Allocations: 5830)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 119.6ms | Allocations: 13100)
+Completed 200 OK in 126ms (Views: 124.3ms | Allocations: 13387)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:46:05 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 914)
+  Rendered layouts/_footer.html.erb (Duration: 1.8ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 27.6ms | Allocations: 5834)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 89.9ms | Allocations: 16940)
+Completed 200 OK in 100ms (Views: 98.7ms | Allocations: 17227)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:47:39 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.7ms | Allocations: 916)
+  Rendered layouts/_footer.html.erb (Duration: 5.8ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 45.2ms | Allocations: 5836)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 169.1ms | Allocations: 15434)
+Completed 200 OK in 172ms (Views: 170.0ms | Allocations: 15721)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:48:14 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.4ms | Allocations: 1301)
+  Rendered layouts/_footer.html.erb (Duration: 4.0ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 36.0ms | Allocations: 8803)
+  Rendered layouts/_scripts.html.erb (Duration: 2.2ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 82.0ms | Allocations: 16971)
+Completed 200 OK in 89ms (Views: 86.4ms | Allocations: 17890)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:48:56 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 10.6ms | Allocations: 908)
+  Rendered layouts/_footer.html.erb (Duration: 2.0ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 50.0ms | Allocations: 5983)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 125.8ms | Allocations: 13254)
+Completed 200 OK in 131ms (Views: 127.9ms | Allocations: 13542)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:50:12 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 6.4ms | Allocations: 1305)
+  Rendered layouts/_footer.html.erb (Duration: 6.1ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 40.6ms | Allocations: 8510)
+  Rendered layouts/_scripts.html.erb (Duration: 2.1ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 81.7ms | Allocations: 16638)
+Completed 200 OK in 90ms (Views: 87.1ms | Allocations: 17557)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:50:17 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.2ms | Allocations: 914)
+  Rendered layouts/_footer.html.erb (Duration: 2.4ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 31.0ms | Allocations: 5834)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 126.5ms | Allocations: 13210)
+Completed 200 OK in 131ms (Views: 127.7ms | Allocations: 13499)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:52:07 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.6ms | Allocations: 1312)
+  Rendered layouts/_footer.html.erb (Duration: 6.4ms | Allocations: 1074)
+  Rendered application/index.html.erb within layouts/application (Duration: 39.3ms | Allocations: 8544)
+  Rendered layouts/_scripts.html.erb (Duration: 7.8ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 88.1ms | Allocations: 16863)
+Completed 200 OK in 94ms (Views: 92.0ms | Allocations: 17785)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:52:28 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 11.5ms | Allocations: 1310)
+  Rendered layouts/_footer.html.erb (Duration: 4.7ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 45.7ms | Allocations: 8536)
+  Rendered layouts/_scripts.html.erb (Duration: 1.6ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 93.1ms | Allocations: 16718)
+Completed 200 OK in 104ms (Views: 99.6ms | Allocations: 17638)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:52:52 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.0ms | Allocations: 1317)
+  Rendered layouts/_footer.html.erb (Duration: 5.7ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 36.3ms | Allocations: 8523)
+  Rendered layouts/_scripts.html.erb (Duration: 2.9ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 91.4ms | Allocations: 16738)
+Completed 200 OK in 99ms (Views: 97.1ms | Allocations: 17659)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:53:49 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.1ms | Allocations: 1305)
+  Rendered layouts/_footer.html.erb (Duration: 12.1ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 53.3ms | Allocations: 8506)
+  Rendered layouts/_scripts.html.erb (Duration: 1.3ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 98.3ms | Allocations: 16637)
+Completed 200 OK in 104ms (Views: 102.1ms | Allocations: 17557)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:54:44 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.4ms | Allocations: 1311)
+  Rendered layouts/_footer.html.erb (Duration: 4.9ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 39.5ms | Allocations: 8512)
+  Rendered layouts/_scripts.html.erb (Duration: 1.2ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 91.2ms | Allocations: 16640)
+Completed 200 OK in 98ms (Views: 95.7ms | Allocations: 17560)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:55:00 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.2ms | Allocations: 1317)
+  Rendered layouts/_footer.html.erb (Duration: 4.3ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 31.0ms | Allocations: 8517)
+  Rendered layouts/_scripts.html.erb (Duration: 2.7ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 67.9ms | Allocations: 16645)
+Completed 200 OK in 76ms (Views: 71.9ms | Allocations: 17566)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:55:50 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 6.9ms | Allocations: 1313)
+  Rendered layouts/_footer.html.erb (Duration: 11.9ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 50.1ms | Allocations: 8514)
+  Rendered layouts/_scripts.html.erb (Duration: 3.5ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 109.3ms | Allocations: 16642)
+Completed 200 OK in 132ms (Views: 125.1ms | Allocations: 17562)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:56:34 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.5ms | Allocations: 1307)
+  Rendered layouts/_footer.html.erb (Duration: 7.0ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 46.1ms | Allocations: 8511)
+  Rendered layouts/_scripts.html.erb (Duration: 4.8ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 111.2ms | Allocations: 16639)
+Completed 200 OK in 120ms (Views: 117.4ms | Allocations: 17559)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:57:53 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 23.3ms | Allocations: 1310)
+  Rendered layouts/_footer.html.erb (Duration: 7.1ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 104.7ms | Allocations: 8511)
+  Rendered layouts/_scripts.html.erb (Duration: 2.9ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 165.6ms | Allocations: 16639)
+Completed 200 OK in 198ms (Views: 186.3ms | Allocations: 17559)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:59:15 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 5.3ms | Allocations: 1305)
+  Rendered layouts/_footer.html.erb (Duration: 14.4ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 60.5ms | Allocations: 8505)
+  Rendered layouts/_scripts.html.erb (Duration: 7.2ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 192.0ms | Allocations: 19929)
+Completed 200 OK in 202ms (Views: 199.7ms | Allocations: 20849)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:59:28 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.8ms | Allocations: 928)
+  Rendered layouts/_footer.html.erb (Duration: 6.0ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 48.8ms | Allocations: 5848)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 132.1ms | Allocations: 16961)
+Completed 200 OK in 136ms (Views: 134.4ms | Allocations: 17249)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:59:37 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 927)
+  Rendered layouts/_footer.html.erb (Duration: 2.1ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 24.5ms | Allocations: 5871)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 88.8ms | Allocations: 13333)
+Completed 200 OK in 94ms (Views: 92.3ms | Allocations: 13622)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:59:44 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.4ms | Allocations: 914)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 24.6ms | Allocations: 5858)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 59.1ms | Allocations: 13320)
+Completed 200 OK in 61ms (Views: 60.0ms | Allocations: 13609)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 21:59:54 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.0ms | Allocations: 921)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 25.2ms | Allocations: 5865)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 64.6ms | Allocations: 13191)
+Completed 200 OK in 69ms (Views: 65.5ms | Allocations: 13479)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:01:44 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 12.5ms | Allocations: 918)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 77.1ms | Allocations: 5843)
+  Rendered layouts/_scripts.html.erb (Duration: 0.4ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 278.2ms | Allocations: 16581)
+Completed 200 OK in 293ms (Views: 286.5ms | Allocations: 16868)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:01:55 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 902)
+  Rendered layouts/_footer.html.erb (Duration: 1.9ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 18.3ms | Allocations: 5822)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 45.7ms | Allocations: 13095)
+Completed 200 OK in 50ms (Views: 46.6ms | Allocations: 13382)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:02:02 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 928)
+  Rendered layouts/_footer.html.erb (Duration: 2.9ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 37.2ms | Allocations: 5848)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 132.8ms | Allocations: 16423)
+Completed 200 OK in 140ms (Views: 138.6ms | Allocations: 16710)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:02:09 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.3ms | Allocations: 918)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 18.8ms | Allocations: 5838)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 59.5ms | Allocations: 13108)
+Completed 200 OK in 64ms (Views: 61.2ms | Allocations: 13395)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:03:15 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.5ms | Allocations: 916)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 19.8ms | Allocations: 5839)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 73.9ms | Allocations: 17418)
+Completed 200 OK in 76ms (Views: 74.8ms | Allocations: 17705)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:03:25 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.9ms | Allocations: 914)
+  Rendered layouts/_footer.html.erb (Duration: 1.4ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 19.0ms | Allocations: 5834)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 54.8ms | Allocations: 13104)
+Completed 200 OK in 58ms (Views: 56.8ms | Allocations: 13391)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:03:31 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.1ms | Allocations: 914)
+  Rendered layouts/_footer.html.erb (Duration: 1.6ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 27.7ms | Allocations: 5834)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 62.2ms | Allocations: 13104)
+Completed 200 OK in 64ms (Views: 63.0ms | Allocations: 13391)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:03:53 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.9ms | Allocations: 904)
+  Rendered layouts/_footer.html.erb (Duration: 0.7ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 5824)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 13094)
+Completed 200 OK in 51ms (Views: 48.8ms | Allocations: 13381)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:04:01 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 1.8ms | Allocations: 908)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 5828)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 13101)
+Completed 200 OK in 52ms (Views: 50.6ms | Allocations: 13388)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:04:09 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.8ms | Allocations: 910)
+  Rendered layouts/_footer.html.erb (Duration: 1.0ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 34.0ms | Allocations: 5830)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 150.1ms | Allocations: 13117)
+Completed 200 OK in 152ms (Views: 150.8ms | Allocations: 13405)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:04:30 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 921)
+  Rendered layouts/_footer.html.erb (Duration: 1.6ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 26.2ms | Allocations: 5865)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 123.3ms | Allocations: 17637)
+Completed 200 OK in 167ms (Views: 161.6ms | Allocations: 17925)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:04:36 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 3.2ms | Allocations: 915)
+  Rendered layouts/_footer.html.erb (Duration: 1.1ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 21.2ms | Allocations: 5859)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 56.1ms | Allocations: 13316)
+Completed 200 OK in 59ms (Views: 56.9ms | Allocations: 13605)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:04:45 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 2.2ms | Allocations: 919)
+  Rendered layouts/_footer.html.erb (Duration: 1.3ms | Allocations: 567)
+  Rendered application/index.html.erb within layouts/application (Duration: 20.4ms | Allocations: 5863)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 13187)
+Completed 200 OK in 52ms (Views: 51.3ms | Allocations: 13474)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:06:26 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 7.9ms | Allocations: 1304)
+  Rendered layouts/_footer.html.erb (Duration: 4.3ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 42.5ms | Allocations: 8528)
+  Rendered layouts/_scripts.html.erb (Duration: 4.7ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 96.1ms | Allocations: 17387)
+Completed 200 OK in 106ms (Views: 101.8ms | Allocations: 18307)
+
+
+Started GET "/" for 127.0.0.1 at 2023-01-17 22:10:09 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (Duration: 4.1ms | Allocations: 1305)
+  Rendered layouts/_footer.html.erb (Duration: 4.2ms | Allocations: 1072)
+  Rendered application/index.html.erb within layouts/application (Duration: 32.1ms | Allocations: 8571)
+  Rendered layouts/_scripts.html.erb (Duration: 1.5ms | Allocations: 375)
+  Rendered layout layouts/application.html.erb (Duration: 77.5ms | Allocations: 16702)
+Completed 200 OK in 83ms (Views: 80.9ms | Allocations: 17622)
+
+

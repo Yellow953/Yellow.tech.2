@@ -1,5 +1,5 @@
 <div class="loader_bg">
-  <div class="loader">
+  <div class="loader mx-auto">
     <%= image_tag "loading.gif" %>
   </div>
 </div>
@@ -55,24 +55,26 @@
           <div class="h-1 mx-auto bg-yellow-300 w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
         
-        <div class="container">
+        <div class="container mx-auto">
           <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50">
             <!-- left -->
             <div class="flex flex-row-reverse md:contents">
-              <div class="gradient col-start-1 col-end-5 p-4 rounded-xl m-4 ml-auto shadow-md w-full">
+              <div class="gradient col-start-1 col-end-5 p-4 rounded-xl m-4 mx-auto shadow-md w-full">
                 <h3 class="font-semibold text-lg mb-1 text-gray-900">Websites</h3>
-                <a href="/web" >
-                  <div class="leading-tight flex">
-                    <%= image_tag "laptop.png", class:"w-36 h-36" %>
-                    <ul class="text-gray-900 my-auto">
-                      <li>Build your website now</li>
-                      <li>Start your online buisness</li>
-                      <li>Have a digital identity</li>
-                      <li>Transform your buisness</li>
-                      <li>Increase your sales</li>
-                    </ul>
-                  </div>
-                </a>
+                <div class="leading-tight">
+                  <a href="/web">
+                    <div class="flex">
+                      <%= image_tag "laptop.png", class:"w-36 h-36" %>
+                      <ul class="text-gray-900 my-auto">
+                        <li>Build your website now</li>
+                        <li>Start your online buisness</li>
+                        <li>Have a digital identity</li>
+                        <li>Transform your buisness</li>
+                        <li>Increase your sales</li>
+                      </ul>
+                    </div>
+                  </a>
+                </div>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
                 <div class="h-full w-6 flex items-center justify-center">
@@ -93,37 +95,41 @@
                   class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-yellow-300 shadow"
                 ></div>
               </div>
-              <div class="gradient col-start-6 col-end-10 p-4 rounded-xl m-4 mr-auto shadow-md w-full ml-0 md:ml-4">
+              <div class="gradient col-start-6 col-end-10 p-4 rounded-xl m-4 mx-auto shadow-md w-full ml-0 md:ml-4">
                 <h3 class="font-semibold text-lg mb-1 text-gray-900">Mobile Apps</h3>
-                <a href="/mobile" >
-                  <div class="leading-tight flex">
-                    <%= image_tag "phone.png", class:"w-36 h-36" %>
-                    <ul class="text-gray-900 my-auto">
-                      <li>Build your mobile app now</li>
-                      <li>Reach mobile users</li>
-                      <li>Transform the user experience</li>
-                      <li>Have an offline experience</li>
-                    </ul>
-                  </div>
-                </a>
+                <div class="leading-tight">
+                  <a href="/mobile">
+                    <div class="flex">
+                      <%= image_tag "phone.png", class:"w-36 h-36" %>
+                      <ul class="text-gray-900 my-auto">
+                        <li>Build your mobile app now</li>
+                        <li>Reach mobile users</li>
+                        <li>Transform the user experience</li>
+                        <li>Have an offline experience</li>
+                      </ul>
+                    </div>
+                  </a>  
+                </div>
               </div>
             </div>
             <!-- left -->
             <div class="flex flex-row-reverse md:contents">
-              <div class="gradient col-start-1 col-end-5 p-4 rounded-xl m-4 ml-auto shadow-md w-full">
+              <div class="gradient col-start-1 col-end-5 p-4 rounded-xl m-4 mx-auto shadow-md w-full">
                 <h3 class="font-semibold text-lg mb-1 text-gray-900">Digital Marketing</h3>
-                <a href="/marketing" >
-                  <div class="leading-tight flex">
-                    <%= image_tag "marketing.png", class:"w-36 h-36" %>
-                    <ul class="text-gray-900 my-auto">
-                      <li>Increase your sales</li>
-                      <li>Launch your buisness</li>
-                      <li>Make Paid Ads</li>
-                      <li>Social Media Management</li>
-                      <li>Create your brand and copyriting</li>
-                    </ul>
-                  </div>
-                </a>
+                <div class="leading-tight">
+                  <a href="/marketing">
+                    <div class="flex">
+                      <%= image_tag "marketing.png", class:"w-36 h-36" %>
+                      <ul class="text-gray-900 my-auto">
+                        <li>Increase your sales</li>
+                        <li>Launch your buisness</li>
+                        <li>Make Paid Ads</li>
+                        <li>Social Media Management</li>
+                        <li>Create your brand and copyriting</li>
+                      </ul>
+                    </div>
+                  </a>    
+                </div>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
                 <div class="h-full w-6 flex items-center justify-center">
@@ -144,33 +150,37 @@
                   class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-yellow-300 shadow"
                 ></div>
               </div>
-              <div class="gradient col-start-6 col-end-10 p-4 rounded-xl m-4 mr-auto shadow-md w-full ml-0 md:ml-4">
+              <div class="gradient col-start-6 col-end-10 p-4 rounded-xl m-4 mx-auto shadow-md w-full ml-0 md:ml-4">
                 <h3 class="font-semibold text-lg mb-1 text-gray-900">Graphic Design</h3>
-                <a href="/design" >
-                  <div class="leading-tight flex">
-                    <%= image_tag "design.png", class:"w-36 h-36" %>
-                    <ul class="text-gray-900 my-auto">
-                      <li>Create your logo</li>
-                      <li>Attractive user interface</li>
-                      <li>Edit your videos / images</li>
-                    </ul>
-                  </div>
-                </a>
+                <div class="leading-tight">
+                  <a href="/design">
+                    <div class="flex">
+                      <%= image_tag "design.png", class:"w-36 h-36" %>
+                      <ul class="text-gray-900 my-auto">
+                        <li>Create your logo</li>
+                        <li>Attractive user interface</li>
+                        <li>Edit your videos / images</li>
+                      </ul>
+                    </div>
+                  </a>    
+                </div>
               </div>
             </div>
             <!-- left -->
             <div class="flex flex-row-reverse md:contents">
-              <div class="gradient col-start-1 col-end-5 p-4 rounded-xl m-4 ml-auto shadow-md w-full">
+              <div class="gradient col-start-1 col-end-5 p-4 rounded-xl m-4 mx-auto shadow-md w-full">
                 <h3 class="font-semibold text-lg mb-1 text-gray-900">Hosting</h3>
-                <a href="/hosting" >
-                  <div class="leading-tight flex">
-                    <%= image_tag "server.png", class:"w-36 h-36" %>
-                    <ul class="text-gray-900 my-auto">
-                      <li>Host your website online</li>
-                      <li>Deploy your mobile app</li>
-                    </ul>
-                  </div>
-                </a>
+                <div class="leading-tight">
+                  <a href="/hosting">
+                    <div class="flex">
+                      <%= image_tag "server.png", class:"w-36 h-36" %>
+                      <ul class="text-gray-900 my-auto">
+                        <li>Host your website online</li>
+                        <li>Deploy your mobile app</li>
+                      </ul>
+                    </div>
+                  </a>    
+                </div>
               </div>
               <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
                 <div class="h-full w-6 flex items-center justify-center">
