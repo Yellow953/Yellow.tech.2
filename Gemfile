@@ -5,7 +5,6 @@ ruby "3.0.0"
 gem "rails", "~> 7.0.4"
 
 gem "sprockets-rails"
-gem "pg"
 gem "puma"
 gem "importmap-rails"
 gem "turbo-rails"
@@ -23,10 +22,13 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
 end
 
+group :production do
+  gem "pg"
+end
+
 group :development do
   gem "web-console"
-  # gem "rack-mini-profiler"
-  # gem "spring"
+  gem "sqlite3"
 end
 
 group :test do
