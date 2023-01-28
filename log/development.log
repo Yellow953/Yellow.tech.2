@@ -15069,3 +15069,22 @@ Processing by ApplicationController#index as HTML
 Completed 200 OK in 72ms (Views: 70.2ms | ActiveRecord: 0.1ms | Allocations: 16929)
 
 
+Started GET "/" for 127.0.0.1 at 2023-01-28 23:40:39 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 51.5ms | Allocations: 10944)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.6ms | Allocations: 106)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.3ms | Allocations: 108)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.5ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 5.0ms | Allocations: 941)
+  Rendered application/index.html.erb within layouts/application (Duration: 297.4ms | Allocations: 51580)
+  Rendered layouts/_scripts.html.erb (Duration: 18.1ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 429.9ms | Allocations: 72946)
+Completed 200 OK in 447ms (Views: 432.5ms | ActiveRecord: 2.5ms | Allocations: 75743)
+
+
