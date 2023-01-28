@@ -1,110 +1,158 @@
-<div class="min-w-screen min-h-screen gradient-3 flex items-center justify-center px-5 py-5">
-    <div class="bg-white text-gray-500 rounded-3xl shadow-xl w-full overflow-hidden" style="max-width:1000px; border: 1px solid black">
-        <div class="md:flex w-full">
-            <div class="w-full md:w-1/2 py-10 px-5 md:px-10">
-              <%= link_to "< Back", :back, class:"text-black bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-4 rounded-full m-2" %> 
-              <%= render "layouts/flash" %>
-              <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
-                <div class="text-center mb-10">
-                  <h1 class="font-bold text-3xl text-gray-900">Profile</h1>
-                </div>
-                
-                <div>
-                  <%= render "devise/shared/error_messages", resource: resource %>
-                  
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-5">
-                        <%= f.label :email, class:"text-xs font-semibold px-1" %>
-                        <div class="flex">
-                          <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
-                          <%= f.email_field :email, value: current_user.email, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-5">
-                        <%= f.label :name, class:"text-xs font-semibold px-1" %>
-                        <div class="flex">
-                          <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
-                          <%= f.text_field :name, value: current_user.name, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-5">
-                        <%= f.label :phone, class:"text-xs font-semibold px-1" %>
-                        <div class="flex">
-                          <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-email-outline text-gray-400 text-lg"></i></div>
-                          <%= f.number_field :phone,value: current_user.phone, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-12">
-                        <%= f.label :image, class:"text-xs font-semibold px-1" %>
-                        <div class="flex">
-                          <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
-                          <%= f.file_field :image, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-12">
-                        <%= f.label :password, class:"text-xs font-semibold px-1" %>
-                        <div class="flex">
-                          <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
-                          <%= f.password_field :password, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-12">
-                        <%= f.label :password_confirmation, class:"text-xs font-semibold px-1" %>
-                        <div class="flex">
-                          <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
-                          <%= f.password_field :password_confirmation, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-12">
-                        <%= f.label :current_password, class:"text-xs font-semibold px-1" %>
-                        <div class="flex">
-                          <div class="w-10 z-10 pl-1 text-center pointer-events-none flex items-center justify-center"><i class="mdi mdi-lock-outline text-gray-400 text-lg"></i></div>
-                          <%= f.password_field :current_password, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-5">
-                        <%= f.submit "Update", class:"block w-full max-w-xs mx-auto gradient-2 text-black rounded-lg px-3 py-3 font-semibold border" %>
-                     </div>
-                  </div>
-                  
-                  <div class="flex -mx-3">
-                     <div class="w-full px-3 mb-5">
-                        <h3>Cancel my account ? </h3>
-                        <p><%= button_to "Delete Account", registration_path(resource_name), data: { turbo_confirm: "Are you sure?" }, method: :delete, class:"bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full my-2" %></p>  
-                      </div>
-                  </div>
-                  
-              </div>
-              <% end %>
-            </div>
-            <div class="hidden md:block w-1/2 gradient-2 px-10 flex">
-               <div class="text-center text-black">
-                  <br><br><br><br><br>
-                  <h2 class="font-bold text-2xl text-black">Profile Picture</h2>
-                  <% if current_user.image.attached? %>
-                     <%= image_tag current_user.image, class:"w-56 h-56 mx-auto my-5 rounded-full" %>
-                  <% else %>
-                     <%= image_tag "default_profile", class:"w-56 h-56 mx-auto my-5 rounded-full" %>
-                  <% end %>
-                  <div class="text-xl">Email: <%= current_user.email %></div>
-                  <div class="text-xl">Name: <%= current_user.name %></div>
-                  <div class="text-xl">Phone: <%= current_user.phone %></div>
-              </div>
-            </div>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="./assets/img/apple-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css"
+    />
+  </head>
+  <body class="text-gray-800 antialiased">
+    <main class="profile-page">
+      <section class="relative block" style="height: 500px;">
+        <div
+          class="absolute top-0 w-full h-full bg-center bg-cover"
+          style='background-image: url("https://images.unsplash.com/photo-1499336315816-097655dcfbda?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2710&amp;q=80");'
+        >
+          <span
+            id="blackOverlay"
+            class="w-full h-full absolute opacity-50 bg-black"
+          ></span>
         </div>
-    </div>
-</div>
+        <div
+          class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          style="height: 70px;"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+      </section>
+      <section class="relative py-16">
+        <div class="container mx-auto px-4">
+          <div
+            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg -mt-64"
+          >
+            <%= link_to "Back", :back, class: "m-5 text-xl" %>
+            <div class="px-6">
+              <div class="flex flex-wrap justify-center">
+                <div
+                  class="w-full lg:w-3/12 px-4 lg:order-2 flex justify-center"
+                >
+                  <div class="relative">
+                     <%= image_tag "default_profile", class:"shadow-xl rounded-full h-auto align-middle border-none -mt-36" %>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center mt-12">
+                <h3
+                  class="text-4xl font-semibold leading-normal mb-2 text-gray-800 mb-2"
+                >
+                  <%= current_user.name %>
+                </h3>
+                <div class="mb-2 text-gray-700">
+                  <%= current_user.email %>
+                </div>
+                <div class="mb-2 text-gray-700">
+                  <%= current_user.phone %>
+                </div>
+              </div>
+              <div class="mt-10 py-10 border-t border-gray-300 text-center">
+                <div class="flex flex-wrap justify-center">
+                  <div class="w-full lg:w-9/12 px-4">
+                     <div class="w-full md:w-1/2 py-10 px-5 md:px-10">
+                        <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
+                           <div>
+                              <%= render "devise/shared/error_messages", resource: resource %>
+                              
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-5">
+                                    <%= f.email_field :email, value: current_user.email, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
+                                 </div>
+                              </div>
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-5">
+                                    <%= f.text_field :name, value: current_user.name, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
+                                 </div>
+                              </div>
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-5">
+                                    <%= f.number_field :phone,value: current_user.phone, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
+                                 </div>
+                              </div>
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-12">
+                                    <%= f.file_field :image, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
+                                 </div>
+                              </div>
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-12">
+                                    <%= f.password_field :password, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
+                                 </div>
+                              </div>
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-12">
+                                    <%= f.password_field :password_confirmation, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
+                                 </div>
+                              </div>
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-12">
+                                    <%= f.password_field :current_password, class:"w-full -ml-10 pl-10 pr-3 py-2 rounded-lg border-2 border-gray-200 outline-none focus:border-indigo-500" %>
+                                 </div>
+                              </div>
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-5">
+                                    <%= f.submit "Update", class:"block w-full max-w-xs mx-auto gradient-2 text-black rounded-lg px-3 py-3 font-semibold border" %>
+                                 </div>
+                              </div>
+                              
+                              <div class="flex">
+                                 <div class="w-full px-3 mb-5 flex justify-center">
+                                    <h3 class="my-auto mx-3">Cancel my account ? </h3>
+                                    <p><%= button_to "Delete Account", registration_path(resource_name), data: { turbo_confirm: "Are you sure?" }, method: :delete, class:"bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-full my-2" %></p>  
+                                 </div>
+                              </div>
+                              
+                        </div>
+                        <% end %>
+                        </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <%= render "layouts/footer" %>
+  </body>
+  <script>
+    function toggleNavbar(collapseID) {
+      document.getElementById(collapseID).classList.toggle("hidden");
+      document.getElementById(collapseID).classList.toggle("block");
+    }
+  </script>
+</html>
