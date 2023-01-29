@@ -1,4 +1,123 @@
-<div>
-  <h1 class="font-bold text-4xl">Software#hosting</h1>
-  <p>Find me in app/views/software/hosting.html.erb</p>
-</div>
+<%= render "layouts/header" %>
+<br><br><br>
+<%= render "layouts/wave_bottom" %>
+
+<section class="relative py-5 mt-5">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <%= image_tag "hosting1", class:"w-full rounded-lg shadow-lg" %>
+              <div class="w-full flex justify-center">
+                <%= link_to "Pricing", pricing_hosting_path, class:"text-center px-5 py-2 rounded-3xl gradient-2 m-5" %>
+              </div>
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <h3 class="text-3xl font-semibold my-3">Hosting</h3>
+                <p class="mt-4 text-md leading-relaxed text-gray-600 mb-5">
+                  On this particular page, you will be able to deploy your apps! Whether it's a website or a mobile app on the play store or apple store. Having a secure hosting server can protect your data while it's live. And it's the only way to make your app accessible to the public. Also hosting services are relatively cheaper than hosting on your computer and come usually with a free domain name. Our team is ready to deploy your app on the specified platform without you worrying about the details with the best price deal out there.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+<section class="relative py-5">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <h3 class="text-3xl font-semibold my-3">What is a hosting service?</h3>
+                <p class="mt-4 text-md leading-relaxed text-gray-600 mb-5">
+                  Hosting is putting your app on a server to make it accessible to the public. It's the only way to deploy your app, otherwise, it will remain a project on a computer. Finding a secure and fast hosting website takes time and risks. Hosting is the next step when you have your idea built as an app and ready for production. We provide you with a fast and secure hosting service and a free domain name and deploy your app from a to z. 
+                </p>
+              </div>
+            </div>
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <%= image_tag "hosting2", class:"w-full rounded-lg shadow-lg" %>
+              <div class="w-full flex justify-center">
+                <%= link_to "Pricing", pricing_hosting_path, class:"text-center px-5 py-2 rounded-3xl gradient-2 m-5" %>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+<section class="relative py-5 mt-5">
+        <div
+          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style="height: 80px;"
+        >
+          <svg
+            class="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              class="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+        <div class="container mx-auto px-4">
+          <div class="items-center flex flex-wrap">
+            <div class="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <%= image_tag "hosting3", class:"w-full rounded-lg shadow-lg" %>
+              <div class="w-full flex justify-center">
+                <%= link_to "Pricing", pricing_hosting_path, class:"text-center px-5 py-2 rounded-3xl gradient-2 m-5" %>
+              </div>
+            </div>
+            <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div class="md:pr-12">
+                <h3 class="text-3xl font-semibold my-3">Is it hard to host on your computer?</h3>
+                <p class="mt-4 text-md leading-relaxed text-gray-600 mb-5">
+                  Hosting is the hardest and final step to starting your business. It requires a server that will run 24/7 with cooling systems and large storage and a constant high-speed internet connection. It also requires power 24/7. That seems a costly setup but luckily we provide that service and take care of the whole deployment process with the best prices out there.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+
+<%= render "layouts/footer" %>
