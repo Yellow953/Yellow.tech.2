@@ -9,5 +9,7 @@ Rails.application.routes.draw do
   get "marketing", to: "software#marketing", as: "marketing"
   get "hosting", to: "software#hosting", as: "hosting"
 
+  post "contact_us", to: "application#contact_us", as: "contact_us"
+
   root "application#index"
 end

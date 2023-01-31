@@ -17,7 +17,7 @@
       <p class="leading-normal font-weight-custom-2 mt-5">
         Welcome to every Buisness Companion...
       </p>
-      <%= link_to "Contact Us", "#contact_us", class:"mx-auto lg:mx-0 hover:underline gradient-2 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" %>
+      <%= link_to "Contact Us", "#contact_us", class:"mx-auto lg:mx-0 gradient-2 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" %>
     </div>
     <!--Right Col-->
     <div class="w-full md:w-2/5 p-8 text-center">
@@ -192,37 +192,29 @@
       <div class="flex flex-wrap ">
         <div class="md:w-1/2 pr-4 pl-4 sm:w-full">
           <div class="contact">
-                        <form action="/user/contact/save" method="POST" enctype="multipart/form-data">
-                           <br>
-                           <div class="flex flex-wrap ">
-                              <div class="sm:w-full pr-4 pl-4 my-2 mt-5">
-                                 <input type="text" name="name" class="contactus" placeholder="Name" required>
-                              </div>
-                              <div class="sm:w-full pr-4 pl-4 my-2">
-                                 <input type="email" name="email" class="contactus bg-white" placeholder="Email" required>
-                              </div>
-                              <div class="sm:w-full pr-4 pl-4 my-2">
-                                 <input type="text" name="phone" class="contactus" placeholder="Phone Number" required>
-                              </div>
-                              <div class="sm:w-full pr-4 pl-4 my-2">
-                                 <textarea name="message" class="textarea" type="text" placeholder="Message" required></textarea>
-                              </div>
-                              <div class="sm:w-full pr-4 pl-4 my-2">
-                                 <button class="send" type="submit">Send</button>
-                              </div>
-                           </div>
-                        </form>
+            <form action="/contact_us" method="POST" enctype="multipart/form-data">
+              <div class="flex flex-wrap ">
+                <div class="sm:w-full pr-4 pl-4 my-2 mt-5">
+                  <input type="text" name="name" class="contactus" placeholder="Name" required>
+                </div>
+                <div class="sm:w-full pr-4 pl-4 my-2">
+                  <input type="email" name="email" class="contactus bg-white" placeholder="Email" required>
+                </div>
+                <div class="sm:w-full pr-4 pl-4 my-2">
+                  <input type="text" name="phone" class="contactus" placeholder="Phone Number" required>
+                </div>
+                <div class="sm:w-full pr-4 pl-4 my-2">
+                  <textarea name="message" class="textarea" type="text" placeholder="Message" required></textarea>
+                </div>
+                <div class="sm:w-full pr-4 pl-4 my-2">
+                  <button class="send" type="submit">Send</button>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
-        <div class="md:w-1/2 pr-4 pl-4 sm:w-full pr-4 pl-4">
-          <%= image_tag "pic1.png", class:"pic1 my-4" %>
-          <h1 class="text-center m-2 text-black font-weight-custom-3">
-                Book Now a meeting with us. <br>
-                We will discuss where you are leaving money on the table.<br>
-                We will give you sollutions and tips for FREE...<br>
-                So it's a win win situation for everyone.<br>
-                What are you waiting for!<br>
-          </h1>
+        <div class="md:w-1/2 pr-4 pl-4 sm:w-full my-auto">
+          <%= image_tag "pic1.png", class:"pic1" %>
         </div>
       </div>
     </div>
