@@ -1,48 +1,28 @@
-<!------------------------- web ------------------------->
-Web
-On this particular page, you will be able to create your desired website! Whether it's for your work, or even yourself. Having an online website can reduce stress from managing your business, to computerising it alongside your data into a systematic simplified form with easy access and with all your offered services laid out entirely i front of your eyes in a neat formation. Our team is ready to tailor you plenty of attractive and responsive websites even Web applications with features and complicated functions with fast rendering , huge cloud storage and synchronization for different users. Book a FREE meeting with us where you'll be investing a small amount of your money only once in a lifetime just to own an international platform a space made for you to display and edit your stock data or allocate it to different databases or clients ensuring you more business opportunities and less difficulties in tracking your product's location, quantity, item movement, history, expiry date etc...
+Digital Marketing
+On this particular page, you can create the marketing campaign your business needs even if you haven't started yet.
+We can create your metaverse accounts, manage them and upload stories and posts for you with the best copywriting out there. 
+Also, you can set up email campaigns and make paid Ads like Google Ads, and Facebook Ads... 
+Marketing campaigns increase sales by a large margin and get new clients. 
 
-What is a website?
-A website is a collection of web pages accessible from your web browser (Chrome, Firefox, Safari, ...)
-located on a server somewhere on the internet under a domain name (www.google.com, www.facebook.com, ...)
-For example, popular websites such as Amazon, Wikipedia, Facebook, and Youtube, ... make so much profit from their websites only.
-Websites are great tools for businesses providing you with a professional public image for your company.
-Websites or web applications offer you advantages by helping you reach out to your data from all platforms (mobile, tablet, and desktop/laptop) instead of creating an app for each one.
-Websites are written with various programming languages and are usually accompanied by a database with massive data storage.
-Web technologies have grown since the beginning and now you can make any idea of yours come to life...
-So what are you waiting for!!!
+Google Ads.
+Google Ads is an online advertising platform developed by Google, where advertisers bid to display brief advertisements, 
+service offerings, product listings, or videos to web users. It can place ads both in the results of search engines 
+like Google Search and on non-search websites, mobile apps, and videos. 
+Google Ads is the leading worldwide marketing software because it can reach the highest number of users. 
+With Google Ads, you can even specify your target audience like age, location, and service type...
+Google Ads is a kind of paid advertisement where you pay for each click with a limit that you set. It's the best bank for your bucks.
+It can be used to generate leads or boost your sales.
 
-Why do you need a website?
-A website is your first step to start your own business. Attractive website designs have proven to increase sales.
-Having a website will provide you with the best first impression to your clients by exposing you professionaly instead of relying on social media alone.
-Don't get me wrong social media marketing is a very effective technique once you already have the foundation and the client's trust.
-Websites create a public identity for your business, increasing trust with clients.
-Websites allow you target mobile, tablet, laptop/desktop users all at once since all of them have a web browser and an internet connection.
-Nowadays, traditional businesses are struggling to keep up with online businesses since
-they have no costs such as rent or electricity or paying employees, it is an easy automated process.
-Also, clients are switching to online shopping since they can shop from their homes.
-Big companies like Adidas, Amazon, Apple, eBay, and Jack&Jones spend a big budget on their websites. Statistics show that their sales are increasing at a better rate with the world's technological transformation.
-Don't miss out on these advantages!!!
+Copywriting
+Copywriting is the act or occupation of writing the text for advertising or other forms of marketing.
+It is written content that aims to increase brand awareness and ultimately persuade a person or group to take a particular action.[2]
+Copywriting can be the tipping point whether the client trusts you and buys your product/service or has doubts about it.
 
-Is it hard to build a website?
-Creating an effective website is hard work and not everybody knows how and what to do.
-You will have to find an attractive design that works for mobile phones, pads, laptops, and computers,
-We also handle creating your logo, finding you the adequate quality pictures. Last but not least comes the harder part being the coding.
-Finding a secure server to host your website and purchasing your domain name for it, will be our responsibility as we will offer you the best of the best.
-Ofcourse, there are free templates on the internet but they are very limited and not everything is achievable or professional or not tailored for your needs or designs.
-It all seems like a hard and complicated process. Don't Worry because we have it all covered! :)
-Instead of exerting all your energy building a website, your time is much better spent doing what you do best: running your business.
-We offer very cheap website pricing in comparison to even freelancers.
-So what are you waiting for!!!
+Meta
+Meta is an American multinational technology company that owns Facebook, Messenger, Instagram, and WhatsApp...
+Meta's products and services contribute a big portion to marketing. Facebook and Instagram pages plus whatsapp business Accounts 
+are the basis of most startup companies and they have big roles in advertisements. A professional meta profile along with a 
+website is all you need to start making a profit from your business. 
 
-<!------------------------- hosting ------------------------->
-Hosting
-On this particular page, you will be able to deploy your apps! Whether it's a website or a mobile app on the play store or apple store. Having a secure hosting server can protect your data while it's live. And it's the only way to make your app accessible to the public. Also hosting services are relatively cheaper than hosting on your computer and come usually with a free domain name. Our team is ready to deploy your app on the specified platform without you worrying about the details with the best price deal out there.
-
-What is a hosting Service?
-Hosting is putting your app on a server to make it accessible to the public.
-It's the only way to deploy your app, otherwise, it will remain a project on a computer. Finding a secure and fast hosting website takes time and risks. Hosting is the next step when you have your idea built as an app and ready for production. We provide you with a fast and secure hosting service and a free domain name and deploy your app from a to z. 
-
-
-Is it hard to host on your computer?
-Hosting is the hardest and final step to starting your business. It requires a server that will run 24/7 with cooling systems and large storage and a constant high-speed internet connection. It also requires power 24/7. That seems a costly setup but luckily we provide that service and take care of the whole deployment process with the best prices out there.
+Note : 
+Paid ads are not included in the pricing. They are side calculated to give you price flexibility and diversity to choose from.
