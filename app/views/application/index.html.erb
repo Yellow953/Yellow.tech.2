@@ -141,6 +141,7 @@
                       <ul class="text-gray-900 my-auto">
                         <li>Create your logo</li>
                         <li>Attractive user interface</li>
+                        <li>Responsive Designs</li>
                         <li>Edit your videos / images</li>
                       </ul>
                     </div>
@@ -192,25 +193,25 @@
       <div class="flex flex-wrap ">
         <div class="md:w-1/2 pr-4 pl-4 sm:w-full">
           <div class="contact">
-            <form action="/contact_us" method="POST" enctype="multipart/form-data">
+            <%= form_with url: contact_us_path, method: :get do |f| %>
               <div class="flex flex-wrap ">
                 <div class="sm:w-full pr-4 pl-4 my-2 mt-5">
-                  <input type="text" name="name" class="contactus" placeholder="Name" required>
+                  <%= f.text_field :name, class:"contactus", placeholder:"Name" %>
                 </div>
                 <div class="sm:w-full pr-4 pl-4 my-2">
-                  <input type="email" name="email" class="contactus bg-white" placeholder="Email" required>
+                  <%= f.email_field :email, class:"contactus", placeholder:"Email" %>
                 </div>
                 <div class="sm:w-full pr-4 pl-4 my-2">
-                  <input type="text" name="phone" class="contactus" placeholder="Phone Number" required>
+                  <%= f.text_field :phone, class:"contactus", placeholder:"Phone" %>
                 </div>
                 <div class="sm:w-full pr-4 pl-4 my-2">
-                  <textarea name="message" class="textarea" type="text" placeholder="Message" required></textarea>
+                  <%= f.text_field :message, class:"contactus", placeholder:"Message" %>
                 </div>
                 <div class="sm:w-full pr-4 pl-4 my-2">
-                  <button class="send" type="submit">Send</button>
+                  <%= button_to "Send", "https://calendly.com/yellow_tech/30min", class:"send", target:"_blank" %>
                 </div>
               </div>
-            </form>
+            <% end %>
           </div>
         </div>
         <div class="md:w-1/2 pr-4 pl-4 sm:w-full my-auto">
@@ -241,13 +242,13 @@
           <%= image_tag "default_profile" %>
         </div>
         <div class="p-6">
-          <h4 class="text-2xl font-semibold mb-4">Rania Rahme</h4>
+          <h4 class="text-2xl font-semibold mb-4">Rania R.</h4>
           <hr />
           <p class="mt-4">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
             </svg>
-            Joe stands out as a professional web developer. From the first encounter, when I asked him to create my website, I knew I was making the right choice. He is always ready to help and very flexible in proposing solutions and very punctual with deadlines. His creativity, his vast technical knowledge, his attention to details, and his exceptional customer service make him the “go-to” engineer that I would turn to for any of my web projects.
+            Yellow Tech stands out as a professional web developer. From the first encounter, when I asked him to create my website, I knew I was making the right choice. He is always ready to help and very flexible in proposing solutions and very punctual with deadlines. His creativity, his vast technical knowledge, his attention to details, and his exceptional customer service make him the “go-to” engineer that I would turn to for any of my web projects.
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
             </svg>
@@ -262,13 +263,13 @@
           <%= image_tag "default_profile" %>
         </div>
         <div class="p-6">
-          <h4 class="text-2xl font-semibold mb-4">Sleiman Bou Antoun</h4>
+          <h4 class="text-2xl font-semibold mb-4">Sleiman B.A.</h4>
           <hr />
           <p class="mt-4">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
             </svg>
-            pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus 
+            Yellow Tech is not a business, it is a friend who knows your needs and has compassion above all. Yellow Tech didn't hesitate giving a helping hand. It loves being beside their customers and it is always working on improving their customer experience. If you are not hiring Yellow Tech as your programmer, than you are letting a true friend down. I really recommend this business. Support this business you will be rising a giant.
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path fill="currentColor" d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6 32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5 48-48V304c0-26.5-21.5-48-48-48z"></path>
             </svg>
@@ -283,7 +284,7 @@
           <%= image_tag "default_profile" %>
         </div>
         <div class="p-6">
-          <h4 class="text-2xl font-semibold mb-4">Elie Khairallah</h4>
+          <h4 class="text-2xl font-semibold mb-4">Elie K.</h4>
           <hr />
           <p class="mt-4">
             <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="quote-left" class="w-6 pr-2 inline-block" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

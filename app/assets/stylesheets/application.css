@@ -58,20 +58,6 @@ body{
     font-size: 17px;
     line-height: 18px;
 }
-.contact .contact .textarea {
-    margin-bottom: 25px;
-    padding: 15px 0px;
-    border: transparent;
-    color: #000 !important;
-    width: 100%;
-    font-size: 17px;
-    line-height: 18px;
-    border-radius: inherit;
-    border: #000 solid 1px;
-    border-top: inherit;
-    border-right: inherit;
-    border-left: inherit;
-}
 .contact .contact .send {
     font-size: 16px;
     background-color: #000;
@@ -82,8 +68,8 @@ body{
     display: block;
 }
 .contact .contact .send:hover {
-    background-color: #f2740d;
-    color: #fff;
+    background-color: yellow;
+    color: black;
 }
 /** end contact section **/
 
