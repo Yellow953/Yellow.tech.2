@@ -16,6 +16,6 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
-  database: Yellow_tech_2_production
-  username: Yellow_tech_2
-  password: <%= ENV["YELLOW_TECH_2_DATABASE_PASSWORD"] %>
+  database: yellow_production
+  username: root
+  password: EPLuViiLORvRk5QSVYyrkLC4IaM2VeBk
