@@ -21818,3 +21818,634 @@ Processing by ApplicationController#index as HTML
 Completed 200 OK in 183ms (Views: 173.5ms | ActiveRecord: 0.9ms | Allocations: 21746)
 
 
+Started GET "/" for ::1 at 2023-02-11 15:38:54 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 103.1ms | Allocations: 11138)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.5ms | Allocations: 106)
+  Rendered layouts/_wave_top.html.erb (Duration: 4.0ms | Allocations: 108)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 8.9ms | Allocations: 1054)
+  Rendered application/index.html.erb within layouts/application (Duration: 640.4ms | Allocations: 60397)
+  Rendered layouts/_scripts.html.erb (Duration: 14.0ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 1095.9ms | Allocations: 82996)
+Completed 200 OK in 1167ms (Views: 1121.6ms | ActiveRecord: 2.9ms | Allocations: 85791)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:40:00 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 7.9ms | Allocations: 2318)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.2ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.5ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 5.8ms | Allocations: 1032)
+  Rendered application/index.html.erb within layouts/application (Duration: 61.0ms | Allocations: 12606)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 99.1ms | Allocations: 21079)
+Completed 200 OK in 105ms (Views: 101.9ms | ActiveRecord: 0.2ms | Allocations: 21717)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:40:37 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 25.7ms | Allocations: 2333)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.0ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 10.8ms | Allocations: 110)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 6.2ms | Allocations: 1035)
+  Rendered application/index.html.erb within layouts/application (Duration: 105.6ms | Allocations: 12703)
+  Rendered layouts/_scripts.html.erb (Duration: 3.4ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 146.3ms | Allocations: 21252)
+Completed 200 OK in 263ms (Views: 244.4ms | ActiveRecord: 0.7ms | Allocations: 21893)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:41:16 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 8.3ms | Allocations: 2302)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.5ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.3ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 3.6ms | Allocations: 1032)
+  Rendered application/index.html.erb within layouts/application (Duration: 52.9ms | Allocations: 12597)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 93.2ms | Allocations: 20900)
+Completed 200 OK in 98ms (Views: 95.4ms | ActiveRecord: 0.2ms | Allocations: 21536)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:41:27 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 17.8ms | Allocations: 2333)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.7ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.5ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 2.7ms | Allocations: 1035)
+  Rendered application/index.html.erb within layouts/application (Duration: 59.5ms | Allocations: 12704)
+  Rendered layouts/_scripts.html.erb (Duration: 0.5ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 91.9ms | Allocations: 21252)
+Completed 200 OK in 135ms (Views: 128.7ms | ActiveRecord: 0.4ms | Allocations: 21893)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:43:40 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (1.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 59.3ms | Allocations: 2317)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 2.3ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 3.9ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 11.1ms | Allocations: 1032)
+  Rendered application/index.html.erb within layouts/application (Duration: 171.8ms | Allocations: 12591)
+  Rendered layouts/_scripts.html.erb (Duration: 2.3ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 235.6ms | Allocations: 20894)
+Completed 200 OK in 254ms (Views: 246.3ms | ActiveRecord: 1.3ms | Allocations: 21531)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:44:26 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 8.3ms | Allocations: 2305)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.4ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.1ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.4ms | Allocations: 1035)
+  Rendered application/index.html.erb within layouts/application (Duration: 50.0ms | Allocations: 12677)
+  Rendered layouts/_scripts.html.erb (Duration: 1.4ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 83.4ms | Allocations: 21225)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.2ms | Allocations: 21863)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:44:46 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 77.6ms | Allocations: 11157)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.7ms | Allocations: 106)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.7ms | Allocations: 108)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 18.8ms | Allocations: 1054)
+  Rendered application/index.html.erb within layouts/application (Duration: 396.5ms | Allocations: 60403)
+  Rendered layouts/_scripts.html.erb (Duration: 0.8ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 656.0ms | Allocations: 82989)
+Completed 200 OK in 729ms (Views: 700.4ms | ActiveRecord: 2.3ms | Allocations: 85784)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:44:58 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 4.9ms | Allocations: 2029)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 2.6ms | Allocations: 686)
+  Rendered application/index.html.erb within layouts/application (Duration: 28.7ms | Allocations: 10609)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 237.4ms | Allocations: 30606)
+Completed 200 OK in 239ms (Views: 237.9ms | ActiveRecord: 0.1ms | Allocations: 30845)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:45:02 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 7.4ms | Allocations: 2011)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 1.7ms | Allocations: 686)
+  Rendered application/index.html.erb within layouts/application (Duration: 33.1ms | Allocations: 10637)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 62.2ms | Allocations: 18636)
+Completed 200 OK in 64ms (Views: 62.9ms | ActiveRecord: 0.2ms | Allocations: 18876)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:45:17 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 32.2ms | Allocations: 2331)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.7ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.3ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.0ms | Allocations: 1035)
+  Rendered application/index.html.erb within layouts/application (Duration: 113.0ms | Allocations: 12618)
+  Rendered layouts/_scripts.html.erb (Duration: 7.7ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 187.7ms | Allocations: 22056)
+Completed 200 OK in 210ms (Views: 200.6ms | ActiveRecord: 0.7ms | Allocations: 22694)
+
+
+Started GET "/" for ::1 at 2023-02-11 15:46:01 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 10.2ms | Allocations: 2305)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.0ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.0ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.3ms | Allocations: 1032)
+  Rendered application/index.html.erb within layouts/application (Duration: 52.1ms | Allocations: 12662)
+  Rendered layouts/_scripts.html.erb (Duration: 1.4ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 90.8ms | Allocations: 21204)
+Completed 200 OK in 96ms (Views: 92.9ms | ActiveRecord: 0.2ms | Allocations: 21842)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:01:58 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 32.6ms | Allocations: 2487)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.2ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.2ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.8ms | Allocations: 1102)
+  Rendered application/index.html.erb within layouts/application (Duration: 88.2ms | Allocations: 12837)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 160.7ms | Allocations: 21266)
+Completed 200 OK in 180ms (Views: 173.7ms | ActiveRecord: 2.6ms | Allocations: 21906)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:02:17 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 8.1ms | Allocations: 2324)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.1ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.1ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 13.4ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 77.5ms | Allocations: 12707)
+  Rendered layouts/_scripts.html.erb (Duration: 2.2ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 126.9ms | Allocations: 21123)
+Completed 200 OK in 133ms (Views: 130.7ms | ActiveRecord: 0.3ms | Allocations: 21760)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:03:06 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 8.9ms | Allocations: 2308)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 2.0ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 2.6ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.7ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 72.8ms | Allocations: 12654)
+  Rendered layouts/_scripts.html.erb (Duration: 2.2ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 121.3ms | Allocations: 21100)
+Completed 200 OK in 126ms (Views: 123.6ms | ActiveRecord: 0.2ms | Allocations: 21737)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:03:12 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 6.5ms | Allocations: 2014)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 2.2ms | Allocations: 726)
+  Rendered application/index.html.erb within layouts/application (Duration: 30.4ms | Allocations: 10635)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 56.0ms | Allocations: 18494)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.3ms | Allocations: 18730)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:04:34 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 12.0ms | Allocations: 2317)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 2.8ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.0ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 5.4ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 60.0ms | Allocations: 12663)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 177)
+  Rendered layout layouts/application.html.erb (Duration: 118.9ms | Allocations: 20996)
+Completed 200 OK in 125ms (Views: 121.9ms | ActiveRecord: 0.3ms | Allocations: 21632)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:04:52 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 6.1ms | Allocations: 2318)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.9ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.9ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 2.8ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 41.2ms | Allocations: 12702)
+  Rendered layouts/_scripts.html.erb (Duration: 1.5ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 72.8ms | Allocations: 21189)
+Completed 200 OK in 80ms (Views: 75.3ms | ActiveRecord: 0.2ms | Allocations: 21826)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:05:01 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 7.9ms | Allocations: 2302)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.0ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.2ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 3.7ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 40.2ms | Allocations: 12649)
+  Rendered layouts/_scripts.html.erb (Duration: 1.4ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 79.6ms | Allocations: 20964)
+Completed 200 OK in 87ms (Views: 81.5ms | ActiveRecord: 0.2ms | Allocations: 21601)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:05:15 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 7.1ms | Allocations: 2309)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.0ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.9ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 3.6ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 39.9ms | Allocations: 12697)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 65.9ms | Allocations: 21194)
+Completed 200 OK in 70ms (Views: 67.5ms | ActiveRecord: 0.2ms | Allocations: 21831)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:05:44 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 8.4ms | Allocations: 2320)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.2ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.3ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.6ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 51.2ms | Allocations: 12669)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 88.5ms | Allocations: 20988)
+Completed 200 OK in 93ms (Views: 90.0ms | ActiveRecord: 0.3ms | Allocations: 21625)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:11:30 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 36.0ms | Allocations: 2471)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.8ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.6ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.8ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 119.1ms | Allocations: 12856)
+  Rendered layouts/_scripts.html.erb (Duration: 5.0ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 178.5ms | Allocations: 21348)
+Completed 200 OK in 193ms (Views: 186.8ms | ActiveRecord: 2.5ms | Allocations: 21985)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:11:45 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 10.0ms | Allocations: 2299)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.0ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.2ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 3.7ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 52.2ms | Allocations: 12647)
+  Rendered layouts/_scripts.html.erb (Duration: 1.4ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 92.8ms | Allocations: 20950)
+Completed 200 OK in 101ms (Views: 98.8ms | ActiveRecord: 0.2ms | Allocations: 21586)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:12:38 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 49.1ms | Allocations: 2306)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 2.4ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 5.4ms | Allocations: 106)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 12.5ms | Allocations: 1100)
+  Rendered application/index.html.erb within layouts/application (Duration: 188.3ms | Allocations: 12700)
+  Rendered layouts/_scripts.html.erb (Duration: 3.0ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 423.3ms | Allocations: 22344)
+Completed 200 OK in 484ms (Views: 436.7ms | ActiveRecord: 0.9ms | Allocations: 22980)
+
+
+Started GET "/" for ::1 at 2023-02-11 16:12:39 +0200
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 8.6ms | Allocations: 2004)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.2ms | Allocations: 726)
+  Rendered application/index.html.erb within layouts/application (Duration: 45.9ms | Allocations: 10587)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 85.7ms | Allocations: 18347)
+Completed 200 OK in 91ms (Views: 88.9ms | ActiveRecord: 0.3ms | Allocations: 18584)
+
+
+Started GET "/web" for ::1 at 2023-02-11 19:44:58 +0200
+Processing by SoftwareController#web as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/web.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 65.8ms | Allocations: 2694)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 2.1ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 3.6ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 8.9ms | Allocations: 1257)
+  Rendered software/web.html.erb within layouts/application (Duration: 110.7ms | Allocations: 7220)
+  Rendered layouts/_scripts.html.erb (Duration: 7.6ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 217.8ms | Allocations: 16875)
+Completed 200 OK in 234ms (Views: 226.7ms | ActiveRecord: 10.6ms | Allocations: 17686)
+
+
+Started GET "/web" for ::1 at 2023-02-11 19:44:59 +0200
+Processing by SoftwareController#web as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/web.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 14.3ms | Allocations: 2175)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.4ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.3ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 4.2ms | Allocations: 726)
+  Rendered software/web.html.erb within layouts/application (Duration: 33.4ms | Allocations: 5230)
+  Rendered layouts/_scripts.html.erb (Duration: 0.3ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 96.4ms | Allocations: 12991)
+Completed 200 OK in 102ms (Views: 97.4ms | ActiveRecord: 0.3ms | Allocations: 13250)
+
+
+Started GET "/mobile" for ::1 at 2023-02-11 19:45:16 +0200
+Processing by SoftwareController#mobile as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/mobile.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 5.8ms | Allocations: 2181)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 2.6ms | Allocations: 726)
+  Rendered software/mobile.html.erb within layouts/application (Duration: 27.1ms | Allocations: 5889)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 51.7ms | Allocations: 13649)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.2ms | Allocations: 13962)
+
+
+Started GET "/design" for ::1 at 2023-02-11 19:45:31 +0200
+Processing by SoftwareController#design as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/design.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 6.0ms | Allocations: 2194)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 1.5ms | Allocations: 726)
+  Rendered software/design.html.erb within layouts/application (Duration: 26.0ms | Allocations: 6324)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 57.0ms | Allocations: 14291)
+Completed 200 OK in 59ms (Views: 57.5ms | ActiveRecord: 0.2ms | Allocations: 14605)
+
+
+Started GET "/design" for ::1 at 2023-02-11 19:48:19 +0200
+Processing by SoftwareController#design as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/design.html.erb within layouts/application
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 46.1ms | Allocations: 2511)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.5ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 2.2ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 10.8ms | Allocations: 1257)
+  Rendered software/design.html.erb within layouts/application (Duration: 94.3ms | Allocations: 7322)
+  Rendered layouts/_scripts.html.erb (Duration: 1.7ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 162.1ms | Allocations: 15626)
+Completed 200 OK in 183ms (Views: 173.4ms | ActiveRecord: 0.7ms | Allocations: 16355)
+
+
+Started GET "/marketing" for ::1 at 2023-02-11 19:48:25 +0200
+Processing by SoftwareController#marketing as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/marketing.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 56.9ms | Allocations: 2182)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 3.1ms | Allocations: 726)
+  Rendered software/marketing.html.erb within layouts/application (Duration: 230.3ms | Allocations: 6477)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 360.3ms | Allocations: 14346)
+Completed 200 OK in 368ms (Views: 361.7ms | ActiveRecord: 0.2ms | Allocations: 14662)
+
+
+Started GET "/marketing" for ::1 at 2023-02-11 19:50:26 +0200
+Processing by SoftwareController#marketing as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/marketing.html.erb within layouts/application
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 10.1ms | Allocations: 2530)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.8ms | Allocations: 104)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.8ms | Allocations: 106)
+  Rendered layouts/_footer.html.erb (Duration: 5.5ms | Allocations: 1257)
+  Rendered software/marketing.html.erb within layouts/application (Duration: 33.4ms | Allocations: 7501)
+  Rendered layouts/_scripts.html.erb (Duration: 1.1ms | Allocations: 174)
+  Rendered layout layouts/application.html.erb (Duration: 62.6ms | Allocations: 15910)
+Completed 200 OK in 67ms (Views: 65.1ms | ActiveRecord: 0.2ms | Allocations: 16640)
+
+
+Started GET "/hosting" for ::1 at 2023-02-11 19:50:31 +0200
+Processing by SoftwareController#hosting as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/hosting.html.erb within layouts/application
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 9.8ms | Allocations: 2188)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 3.0ms | Allocations: 726)
+  Rendered software/hosting.html.erb within layouts/application (Duration: 88.6ms | Allocations: 5282)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 188.0ms | Allocations: 13045)
+Completed 200 OK in 195ms (Views: 191.6ms | ActiveRecord: 0.3ms | Allocations: 13361)
+
+
+Started GET "/" for ::1 at 2023-02-11 19:51:28 +0200
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ApplicationController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering application/index.html.erb within layouts/application
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 67.0ms | Allocations: 11155)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 1.0ms | Allocations: 106)
+  Rendered layouts/_wave_top.html.erb (Duration: 1.3ms | Allocations: 108)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 7.2ms | Allocations: 1124)
+  Rendered application/index.html.erb within layouts/application (Duration: 2073.1ms | Allocations: 86318)
+  Rendered layouts/_scripts.html.erb (Duration: 1.6ms | Allocations: 176)
+  Rendered layout layouts/application.html.erb (Duration: 2296.3ms | Allocations: 108578)
+Completed 200 OK in 2324ms (Views: 2303.8ms | ActiveRecord: 2.6ms | Allocations: 111373)
+
+
+Started GET "/web" for ::1 at 2023-02-11 19:53:59 +0200
+Processing by SoftwareController#web as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/web.html.erb within layouts/application
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 93.5ms | Allocations: 2285)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 6.0ms | Allocations: 9)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layouts/_footer.html.erb (Duration: 12.4ms | Allocations: 737)
+  Rendered software/web.html.erb within layouts/application (Duration: 138.3ms | Allocations: 5939)
+  Rendered layouts/_scripts.html.erb (Duration: 0.2ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 346.7ms | Allocations: 14909)
+Completed 200 OK in 370ms (Views: 357.4ms | ActiveRecord: 0.6ms | Allocations: 15545)
+
+
+Started GET "/web" for ::1 at 2023-02-11 19:54:00 +0200
+Processing by SoftwareController#web as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering software/web.html.erb within layouts/application
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? ORDER BY "users"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:20
+  Rendered layouts/_header.html.erb (Duration: 18.6ms | Allocations: 2170)
+  Rendered layouts/_wave_bottom.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layouts/_wave_top.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layouts/_footer.html.erb (Duration: 2.9ms | Allocations: 729)
+  Rendered software/web.html.erb within layouts/application (Duration: 39.3ms | Allocations: 5261)
+  Rendered layouts/_scripts.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 113.4ms | Allocations: 13257)
+Completed 200 OK in 120ms (Views: 117.2ms | ActiveRecord: 0.5ms | Allocations: 13516)
+
+
