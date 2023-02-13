@@ -25,7 +25,7 @@
     </div>
   </div>
 </div>
-<br><br>
+<br><br><br>
 <%= render "layouts/wave_bottom" %>
     
     <section class="bg-white py-8">
@@ -47,12 +47,14 @@
                   <a href="/web">
                     <div class="flex">
                       <%= image_tag "laptop.png", class:"w-36 h-36" %>
-                      <ul class="text-gray-900 my-auto">
-                        <li>Build your website now</li>
-                        <li>Start your online buisness</li>
-                        <li>Have a digital identity</li>
-                        <li>Transform your buisness</li>
-                        <li>Increase your sales</li>
+                      <ul class="text-gray-900 my-auto text-center">
+                        <li class="text-left">Build your website now</li>
+                        <li class="text-left">Start your online buisness</li>
+                        <li class="text-left">Have a digital identity</li>
+                        <li class="text-left">Transform your buisness</li>
+                        <li class="text-left">Increase your sales</li>
+                        <br>
+                        <li><%= link_to "View", web_path, class:"mx-auto gradient-2 font-bold rounded-full py-2 px-5 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" %></li>
                       </ul>
                     </div>
                   </a>
@@ -83,11 +85,13 @@
                   <a href="/mobile">
                     <div class="flex">
                       <%= image_tag "phone.png", class:"w-36 h-36" %>
-                      <ul class="text-gray-900 my-auto">
-                        <li>Build your mobile app now</li>
-                        <li>Reach mobile users</li>
-                        <li>Transform the user experience</li>
-                        <li>Have an offline experience</li>
+                      <ul class="text-gray-900 my-auto text-center">
+                        <li class="text-left">Build your mobile app now</li>
+                        <li class="text-left">Reach mobile users</li>
+                        <li class="text-left">Transform the user experience</li>
+                        <li class="text-left">Have an offline experience</li>
+                        <br>
+                        <li><%= link_to "View", mobile_path, class:"mx-auto gradient-2 font-bold rounded-full py-2 px-5 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" %></li>
                       </ul>
                     </div>
                   </a>  
@@ -102,12 +106,14 @@
                   <a href="/marketing">
                     <div class="flex">
                       <%= image_tag "marketing.png", class:"w-36 h-36" %>
-                      <ul class="text-gray-900 my-auto">
-                        <li>Increase your sales</li>
-                        <li>Launch your buisness</li>
-                        <li>Make Paid Ads</li>
-                        <li>Social Media Management</li>
-                        <li>Create your brand and copyriting</li>
+                      <ul class="text-gray-900 my-auto text-center">
+                        <li class="text-left">Increase your sales</li>
+                        <li class="text-left">Launch your buisness</li>
+                        <li class="text-left">Make Paid Ads</li>
+                        <li class="text-left">Social Media Management</li>
+                        <li class="text-left">Create your brand and copyriting</li>
+                        <br>
+                        <li><%= link_to "View", marketing_path, class:"mx-auto gradient-2 font-bold rounded-full py-2 px-5 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" %></li>
                       </ul>
                     </div>
                   </a>    
@@ -138,11 +144,13 @@
                   <a href="/design">
                     <div class="flex">
                       <%= image_tag "design.png", class:"w-36 h-36" %>
-                      <ul class="text-gray-900 my-auto">
-                        <li>Create your logo</li>
-                        <li>Attractive user interface</li>
-                        <li>Responsive Designs</li>
-                        <li>Edit your videos / images</li>
+                      <ul class="text-gray-900 my-auto text-center">
+                        <li class="text-left">Create your logo</li>
+                        <li class="text-left">Attractive user interface</li>
+                        <li class="text-left">Responsive Designs</li>
+                        <li class="text-left">Edit your videos / images</li>
+                        <br>
+                        <li><%= link_to "View", design_path, class:"mx-auto gradient-2 font-bold rounded-full py-2 px-5 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" %></li>
                       </ul>
                     </div>
                   </a>    
@@ -157,9 +165,11 @@
                   <a href="/hosting">
                     <div class="flex">
                       <%= image_tag "server.png", class:"w-36 h-36" %>
-                      <ul class="text-gray-900 my-auto">
-                        <li>Host your website online</li>
-                        <li>Deploy your mobile app</li>
+                      <ul class="text-gray-900 my-auto text-center">
+                        <li class="text-left">Host your website online</li>
+                        <li class="text-left">Deploy your mobile app</li>
+                        <br>
+                        <li><%= link_to "View", hosting_path, class:"mx-auto gradient-2 font-bold rounded-full py-2 px-5 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out" %></li>
                       </ul>
                     </div>
                   </a>    
